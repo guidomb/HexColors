@@ -7,28 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9DA364541B0C913500843C80 /* HexColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA364481B0C913500843C80 /* HexColors.framework */; };
-		9DA3645B1B0C913500843C80 /* HexColorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA3645A1B0C913500843C80 /* HexColorsTests.m */; };
 		9DA364661B0C918400843C80 /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA364641B0C918400843C80 /* HexColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DA364671B0C918400843C80 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA364651B0C918400843C80 /* HexColors.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9DA364551B0C913500843C80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9DA3643F1B0C913500843C80 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9DA364471B0C913500843C80;
-			remoteInfo = HexColors;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		9DA364481B0C913500843C80 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA3644C1B0C913500843C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DA364531B0C913500843C80 /* HexColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DA364591B0C913500843C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DA3645A1B0C913500843C80 /* HexColorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HexColorsTests.m; sourceTree = "<group>"; };
 		9DA364641B0C918400843C80 /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HexColors.h; path = Classes/HexColors.h; sourceTree = SOURCE_ROOT; };
 		9DA364651B0C918400843C80 /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HexColors.m; path = Classes/HexColors.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -41,14 +26,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DA364501B0C913500843C80 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DA364541B0C913500843C80 /* HexColors.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -56,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				9DA3644A1B0C913500843C80 /* HexColors */,
-				9DA364571B0C913500843C80 /* HexColorsTests */,
 				9DA364491B0C913500843C80 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				9DA364481B0C913500843C80 /* HexColors.framework */,
-				9DA364531B0C913500843C80 /* HexColorsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,23 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				9DA3644C1B0C913500843C80 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9DA364571B0C913500843C80 /* HexColorsTests */ = {
-			isa = PBXGroup;
-			children = (
-				9DA3645A1B0C913500843C80 /* HexColorsTests.m */,
-				9DA364581B0C913500843C80 /* Supporting Files */,
-			);
-			path = HexColorsTests;
-			sourceTree = "<group>";
-		};
-		9DA364581B0C913500843C80 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9DA364591B0C913500843C80 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,37 +95,16 @@
 			productReference = 9DA364481B0C913500843C80 /* HexColors.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9DA364521B0C913500843C80 /* HexColorsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9DA364611B0C913500843C80 /* Build configuration list for PBXNativeTarget "HexColorsTests" */;
-			buildPhases = (
-				9DA3644F1B0C913500843C80 /* Sources */,
-				9DA364501B0C913500843C80 /* Frameworks */,
-				9DA364511B0C913500843C80 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9DA364561B0C913500843C80 /* PBXTargetDependency */,
-			);
-			name = HexColorsTests;
-			productName = HexColorsTests;
-			productReference = 9DA364531B0C913500843C80 /* HexColorsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		9DA3643F1B0C913500843C80 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "mRs-";
 				TargetAttributes = {
 					9DA364471B0C913500843C80 = {
-						CreatedOnToolsVersion = 6.3.1;
-					};
-					9DA364521B0C913500843C80 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
@@ -185,20 +122,12 @@
 			projectRoot = "";
 			targets = (
 				9DA364471B0C913500843C80 /* HexColors */,
-				9DA364521B0C913500843C80 /* HexColorsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9DA364461B0C913500843C80 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DA364511B0C913500843C80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,23 +145,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DA3644F1B0C913500843C80 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DA3645B1B0C913500843C80 /* HexColorsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9DA364561B0C913500843C80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9DA364471B0C913500843C80 /* HexColors */;
-			targetProxy = 9DA364551B0C913500843C80 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9DA3645C1B0C913500843C80 /* Debug */ = {
@@ -257,6 +170,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -333,6 +247,7 @@
 				INFOPLIST_FILE = HexColors/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mRs-.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -348,38 +263,9 @@
 				INFOPLIST_FILE = HexColors/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mRs-.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		9DA364621B0C913500843C80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HexColorsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		9DA364631B0C913500843C80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HexColorsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -400,15 +286,6 @@
 			buildConfigurations = (
 				9DA3645F1B0C913500843C80 /* Debug */,
 				9DA364601B0C913500843C80 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9DA364611B0C913500843C80 /* Build configuration list for PBXNativeTarget "HexColorsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9DA364621B0C913500843C80 /* Debug */,
-				9DA364631B0C913500843C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
